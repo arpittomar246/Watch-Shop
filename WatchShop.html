@@ -1,0 +1,554 @@
+<html>
+    <head>
+        <title>Watch Shop</title>
+        <style>
+            .width{
+                width: 100%;
+                display: flex;
+                margin: auto;
+                height: 100px;
+            }
+            .width2{
+                width: 25%;
+                
+                padding-left: 8px;
+                padding-top: 20px;
+            }
+            .width3{
+                width: 47%;
+             
+                display: flex;
+                padding-top: 20px;
+            
+            }
+            .width3 a{
+                text-decoration: none;
+                color: black;
+                font-size: 16px;
+                font-family:Arial, Helvetica, sans-serif ;
+            }
+            .width4{
+                width: 84.25;
+                padding-top: 20px;
+            }
+            .watch2{
+                text-align: right;
+                position: relative;
+                right: 1px;
+            }
+            .div2width1{
+                width: 100%;
+                display: flex;
+                margin: auto;
+                background-color: rgb(240, 240, 240);
+                
+            }
+            @keyframes leftright{
+                0%{
+                    left: -800px;
+                }
+                50%{
+                    left: 53px;
+                }
+                100%{
+                    left: 53px;
+                }
+            }
+            .div2width2{
+                width: 67%;    
+            }
+            
+            .div2width2 a{
+                color: white;
+                text-decoration: none;
+                border: 1px grey solid;
+                background-color: rgb(74, 74, 75);
+                padding: 15px 30px;
+                font-family: Arial, Helvetica, sans-serif;
+                position: relative;
+                top: 120px;
+                left: 53px;
+                animation: leftright 5s ease ;
+            
+                }
+            .div2width2 a:hover{
+                background-color: red;    
+            }
+            
+            .div2width3{
+                width: 33%;
+                overflow: hidden;
+            }
+            .div2width3 img{
+                animation: imagezoom 2s ease-in-out infinite;
+            }
+            @keyframes imagezoom{
+                0%{
+                    
+                   transform: scale(1);
+                }
+                50%{
+                    transform: scale(1.05);
+                                  }
+        
+                100%{
+                   transform: scale(1); 
+                }
+            }        
+            .p1{
+                position: relative;
+                top: 110px;
+                left: 53px;
+                animation: leftright 3s ease ;
+                font-size: 95px;
+                font-family:Arial, Helvetica, sans-serif;
+                font-weight: bolder;
+                color: rgb(15, 27, 55);
+            }
+            .p2{
+                position: relative;
+                left: 53px;
+                top: 200px;
+                animation: leftright 3s ease ;
+                font-size: 95px;
+                font-family:Arial, Helvetica, sans-serif;
+                font-weight: bolder;
+                color: rgb(15, 27, 55);
+                
+            }
+            .p3{
+                position: relative;
+                left: 53px;
+                top: 60px;
+                font-size: 19px;
+                animation: leftright 4s ease ;     
+            } 
+            .p4{
+                font-size: 50px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                margin-left: 53px;
+                margin-top: 200px;
+            }    
+            .div3{
+                width: 92%;
+                margin: auto;
+                display: flex;
+                justify-content: space-around;
+                overflow: hidden;
+                
+            }  
+            .div3 p{
+                text-align: center;
+                font-size: 20px;
+            }
+            .div31{
+                width: 30%;
+                overflow: hidden;
+            }   
+            .div31p1{
+                font-size: large;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bolder;   
+            }
+            .div31p2{
+                color: red;
+                font-weight: 200;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+            }
+            .div31 img:hover{
+                animation: zoom1 1s ease-in-out;
+            }
+            @keyframes zoom1{
+                0%{
+                    transform: scale(1);
+                }
+                50%{
+                    transform: scale(1.05);
+                }
+                100%{
+                    transform: scale(1.05);
+                }
+            }
+            .width5{
+                width: 100%;
+                margin: auto;
+                display: flex;
+                justify-content: space-around;
+                margin-top: 200px;
+            }
+            .width51{   
+                width: 47%;
+                overflow: hidden;
+            }
+            .width51 img{
+                width: 100%;
+                height: 100%;
+                
+            }
+            .width52{
+                width: 23%;
+                overflow: hidden;
+            }
+            .width52 img:hover{
+                animation: zoom2 1s ease-in-out;
+            }
+            .width52 img{
+                width: 100%;
+                height: 100%;
+            }
+            .width53{
+                width: 23%;
+                overflow: hidden;
+            }
+            .width53 img:hover{
+                animation: zoom2 1s ease-in-out;
+            }
+            .width51 img:hover{
+                animation: zoom2 1s ease-in-out;
+                overflow: hidden;
+            }
+            @keyframes zoom2{
+              0%{
+                transform: scale(1.1);
+              }
+              100%{
+                  transform: scale(1);
+              }
+            }
+            .width6{
+                width: 100%;
+                margin: auto;
+                text-align: center;
+                margin-top: 200px;
+            }
+            .width6 a{
+                font-size: 50px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bolder;
+            }
+            .width6 p{
+                color: grey;
+                font-size: 18px;
+            }
+            .div3a{
+                background-image: url(watch10.jpg);
+                background-repeat: no-repeat;
+                width: 30%;
+                height: 400px;
+                text-align: center;
+                overflow: hidden;
+            }
+            .div3a a{
+                text-decoration: none;
+                border: 1px red solid;
+                background-color: red;
+                color: white;
+                padding: 40px 135px;
+                position: relative;
+                top: 360px;
+            }
+            .div3a1{
+                background-image: url(watch13.jpg);
+                background-repeat: no-repeat;
+                width: 30%;
+                height: 400px;
+                text-align: center;
+                overflow: hidden;
+            }
+            .div3a1 a{
+                text-decoration: none;
+                border: 1px red solid;
+                background-color: red;
+                color: white;
+                padding: 40px 135px;
+                position: relative;
+                top: 360px;
+            }
+            .div3a a:hover{
+                animation: updown 4s ease-in-out ;
+            }
+            @keyframes updown{
+                0%{
+                   
+                }
+                50%{
+                  
+                }
+                100%{
+                   
+                }
+            }
+            .div3b{
+                background-image: url(watch11.jpg);
+                background-repeat: no-repeat;
+                width: 30%;
+                text-align: center;
+            }
+            .div3b a{
+                text-decoration: none;
+                border: 1px red solid;
+                background-color: red;
+                color: white;
+                padding: 40px 135px;
+                position: relative;
+                top: 360px;
+            }
+            .div3b1{
+                background-image: url(watch14.jpg);
+                background-repeat: no-repeat;
+                width: 30%;
+                text-align: center;
+            }
+            .div3b1 a{
+                text-decoration: none;
+                border: 1px red solid;
+                background-color: red;
+                color: white;
+                padding: 40px 135px;
+                position: relative;
+                top: 360px;
+            }
+            .div3c{
+                background-image: url(watch12.jpg);
+                background-repeat: no-repeat;
+                width: 30%;
+                text-align: center;
+            }
+            .div3c a{
+                text-decoration: none;
+                border: 1px red solid;
+                background-color: red;
+                color: white;
+                padding: 40px 135px;
+                position: relative;
+                top: 360px;
+            }
+            .div3c1{
+                background-image: url(watch15.jpg);
+                background-repeat: no-repeat;
+                width: 30%;
+                text-align: center;
+            }
+            .div3c1 a{
+                text-decoration: none;
+                border: 1px red solid;
+                background-color: red;
+                color: white;
+                padding: 40px 135px;
+                position: relative;
+                top: 360px;
+            }
+            .div4{
+                text-align: center;
+                margin-top: 100px;
+            }
+            .div4 a{
+                text-decoration: none;
+                color: white;
+                padding: 22px 35px;
+                background-color: red;
+            }
+            .div4 a:hover{
+                background-color: grey;
+            }
+            .div5{
+                width: 92%;
+                margin: auto;
+                display: flex;
+                margin-top: 100px;
+            }
+            .div5a{
+                width: 50%;
+            }
+            .div5a p{
+                font-size: 60px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+            }
+            .div5a p1{
+                font-size: 20px;
+                color: grey;
+            }
+            .div5a a{
+                text-decoration: none;
+                color: white;
+                border: 1px red solid;
+                background-color: red;
+                padding: 20px 30px;
+                font-family: Arial, Helvetica, sans-serif;
+                position: relative;
+                top: 100px;
+                right: 295px;
+            }
+            .div5a a:hover{
+                background-color: grey;
+                border: 1px grey solid;
+            }
+            .div5b{
+                width: 33.33%;
+                background-color: red;
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;
+                padding: 30px 40px;
+            }
+            .div5c{
+                width: 25%;
+                font-size: 16px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .div5c a{
+                text-decoration: none;
+                color: grey;
+                
+            }
+            .div5c1{
+                width: 20%;
+                font-size: 16px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .div5c1 a{
+                text-decoration: none;
+                color: grey;
+            }
+            .div5c2{
+                width: 35%;
+                font-size: 16px;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-left: 90px;
+            }
+            .div5c2 a{
+                text-decoration: none;
+                color: grey;
+            }
+            .div5 h3{
+                position: relative;
+                left: 35px;
+            }
+            .div5c p{
+                color: grey;
+            }
+            .div5c img{
+                position: relative;
+                right: 25px;
+            }
+            .div6{
+                margin-top: 100px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="width">
+            <div class="width2"><img src="watch1.jpg"></div>
+            <div class="width3">
+                <div class="width4"><a href="#">Home</a></div>
+                <div class="width4"><a href="#">Shop</a></div>
+                <div class="width4"><a href="#">About</a></div>
+                <div class="width4"><a href="#">Latest</a></div>
+                <div class="width4"><a href="#">Blog</a></div>
+                <div class="width4"><a href="#">Pages</a></div>
+                <div class="width4"><a href="#">Contact</a></div>
+            </div>
+            <div class="width2 watch2"><img src="watch2.jpg"></div>
+        </div>
+        <div class="div2width1">
+            <div class="div2width2">
+                <p class="p2">Select Your New </p>
+                <p class="p1"> Perfect Style</p>
+                <p class="p3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, error maiores.</p>
+                <a href="#">SHOP NOW</a>
+            </div>
+            <div class="div2width3"><img src="watch3.jpg"></div>
+        </div>
+        <div class="p4" ><p>New Arrivals</p></div>
+        <div class="div3">
+            <div class="div31"><img src="watch4.jpg">
+            </div>
+            <div class="div31"><img src="watch5.jpg"></div>
+            <div class="div31"><img src="watch6.jpg"></div>
+        </div>
+        <div class="div3">
+            <div class="div31"><p class="div31p1">Thermo Ball Etip Gloves
+            </p><p class="div31p2">$ 45,743</p>
+        </div>
+            <div class="div31"><p class="div31p1">Thermo Ball Etip Gloves
+            </p><p class="div31p2">$ 45,743</p></div>
+            <div class="div31"><p class="div31p1">Thermo Ball Etip Gloves
+            </p><p class="div31p2">$ 45,743</p></div>
+        </div>
+        <div class="width5">
+            <div class="width51"><img src="watch7.jpg"></div>
+            <div class="width52"><img src="watch8.jpg"></div>
+            <div class="width52"><img src="watch9.jpg"></div>  
+        </div>
+        <div class="width6"><a>Popular Items</a>
+        <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+    <p>aliqua. Quis ipsum suspendisse ultrices gravida.</p></div>
+    <div class="div3">
+        <div class="div3a"><a href="#">Add to cart</a></div>
+        <div class="div3b"><a href="#">Add to cart</a></div>
+        <div class="div3c"><a href="#">Add to cart</a></div>
+    </div>
+    <div class="div3">
+        <div class="div31"><p class="div31p1">Thermo Ball Etip Gloves
+        </p><p class="div31p2">$ 45,743</p>
+    </div>
+        <div class="div31"><p class="div31p1">Thermo Ball Etip Gloves
+        </p><p class="div31p2">$ 45,743</p></div>
+        <div class="div31"><p class="div31p1">Thermo Ball Etip Gloves
+        </p><p class="div31p2">$ 45,743</p></div>
+    </div>
+    <div class="div3">
+        <div class="div3a1"><a href="#">Add to cart</a></div>
+        <div class="div3b1"><a href="#">Add to cart</a></div>
+        <div class="div3c1"><a href="#">Add to cart</a></div>
+    </div>
+    <div class="div3">
+        <div class="div31"><p class="div31p1">Thermo Ball Etip Gloves
+        </p><p class="div31p2">$ 45,743</p>
+    </div>
+        <div class="div31"><p class="div31p1">Thermo Ball Etip Gloves
+        </p><p class="div31p2">$ 45,743</p></div>
+        <div class="div31"><p class="div31p1">Thermo Ball Etip Gloves
+        </p><p class="div31p2">$ 45,743</p></div>
+    </div>
+    <div class="div4"><a href="#">VIEW MORE PRODUCTS</a></div>
+    <div class="div5">
+        <div class="div5a"><p>Watch of Choice</p>
+        <p1>Enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p1>
+    <a href="#">SHOW WATCHES</a></div>
+        <div class="div5a"><img src="watch16.jpg"></div>
+    </div>
+    <div class="div5">
+        <div class="div5a"><img src="watch17.jpg"></div>
+        <div class="div5a"><p>Watch of Choice</p>
+        <p1>Enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p1>
+    <a href="#">SHOW WATCHES</a></div>    
+    </div>
+    <div class="div5">
+        <div class="div5b"><img src="logo1.jpg"><h3>Free Shipping Method</h3><p>aorem ixpsacdolor sit ameasecur adipisicing elitsf edasd.</p></div>
+        <div class="div5b"><img src="logo2.jpg"><h3>Secure Payment System</h3><p>aorem ixpsacdolor sit ameasecur adipisicing elitsf edasd.</p></div>
+        <div class="div5b"><img src="logo3.jpg"><h3>Secure Payment System</h3><p>aorem ixpsacdolor sit ameasecur adipisicing elitsf edasd.</p></div>
+    </div>
+    <div class="div5">
+        <div class="div5c"><img src="logo4.jpg"><p>Asorem ipsum adipolor sdit amet, consectetur adipisicing elitcf sed do eiusmod tem.</p>
+        </div>
+        <div class="div5c1"><h3>Quick Links</h3>
+            <ul><a href="#">About</a></ul>
+            <ul><a href="#">Offers & Discounts</a></ul>
+            <ul><a href="#">Get Coupon</a></ul>
+            <ul><a href="#">Contact Us</a></ul></div>
+        <div class="div5c1"><h3>New Products</h3><ul><a href="#">Woman Cloth</a></ul>
+            <ul><a href="#">Fashion Accessories</a></ul>
+            <ul><a href="#">Man Accessories</a></ul>
+            <ul><a href="#">Rubber made Toys</a></ul></div>
+        <div class="div5c2"><h3>Support</h3><ul><a href="#">Frequently Asked Questions</a></ul>
+            <ul><a href="#">Terms & Conditions</a></ul>
+            <ul><a href="#">Privacy Policy</a></ul>
+            <ul><a href="#">Report a Payment Issue</a></ul></div>
+    </div>
+    <div class="div6"><img src="watch18.jpg"></div>
+    </body>
+</html>
